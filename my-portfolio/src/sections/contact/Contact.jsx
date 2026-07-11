@@ -3,7 +3,7 @@ import { motion, useReducedMotion } from 'framer-motion'
 import { FiSend, FiCheckCircle, FiAlertCircle, FiMail, FiUser, FiMessageSquare } from 'react-icons/fi'
 import ParticlesBackground from '../../components/particlesBackground/ParticlesBackground'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000'
+const API_URL = import.meta.env.VITE_API_URL 
 
 function FloatingIllustration() {
   const reduceMotion = useReducedMotion()
