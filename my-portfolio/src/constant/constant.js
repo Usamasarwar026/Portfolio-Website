@@ -44,7 +44,7 @@ export const PROJECTS = [
     ],
     image: IMAGES.WEBSITEBUILDER,
     github: "https://github.com/Usamasarwar026/Final-Year-Project",
-    live: "https://final-year-project-azure-one.vercel.app",
+    live: "https://smarthotelgen.vercel.app",
   },
   {
     title: "URL Shortener",
