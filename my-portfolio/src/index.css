@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  font-family: "poppins", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+@layer utilities {
+  .gradient {
+    background: linear-gradient(-45deg,#161616, #1c1c2e, #17152e);
+
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+}
