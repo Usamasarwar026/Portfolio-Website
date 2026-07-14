@@ -119,7 +119,7 @@ export default function Hero({ id }) {
                 variant="outline"
                 size="md"
               >
-                View
+                View CV
               </Button>
               <Button href="/Resume.pdf" download variant="outline" size="md">
                 Download
